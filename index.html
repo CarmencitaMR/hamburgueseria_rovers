@@ -7,18 +7,40 @@
     , initial-scale=1.0">
     <title>Hamburguesería Rovers</title>
 
-    <script src="https://kit.fontawesome.com/ffcbacb46a.js" crossorigin="anonymous"></script>
+
+    <!--EMBEBED CODE FONTAWOSOME-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--EMBEBED CODE FONT MONTSERRAT-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--EMBEBED CODE FONT ENGLEBERT-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+
+    <!--LINK HOJAS ESTILO-->
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 
 <body>
 
     <!--CABECERA-->
 
     <header>
-        <section>
-            <ul>
+        <section class="sectionTop" id="sectionTopScroll">
+            <ul class="listTop">
                 <li>
                     <a href="rover@gmail.com">
                         <i class="fa-solid fa-envelope"></i>
@@ -46,14 +68,20 @@
             </ul>
         </section>
 
+        <figure class:"logoBox">
+            <a href="">
+                <img src="./images/logo.jpg" alt="logotipo con el nombre de la hamburguesería Rovers" class="logoImg">
+            </a>
 
-        <nav>
-            <figure>
-                <a href="#">
-                    <img src="./images/logo.jpg" alt="logotipo con el nombre de la hamburguesería Rovers">
-                </a>
-            </figure>
+        </figure>
 
+        <figure class="hamburgerBox">
+            <a href="#">
+                <img src="./images/burger-menu-svgrepo-com.svg" alt="menú hamburguesa">
+            </a>
+        </figure>
+
+        <nav class="navTop">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Menu</a></li>
@@ -71,7 +99,7 @@
     <main>
 
         <section>
-            <h2>Las mejores hamburgesas del mundo</h2>
+            <h2 class="tittleTop">Las mejores hamburgesas del mundo</h2>
             <h3>Bienvenido a nuestra hamburguesería</h3>
             <h4>Come apartir de 15€</h4>
             <a href="#">Nuestra Carta
@@ -98,12 +126,17 @@
 
         <section>
 
-            <h2>Our Services</h2>
+            <h2 class="ourServices">Our
+                <span>Services</span>
+            </h2>
 
-            <div>
-                <hr>
-                <span>X</span>
+
+
+            <div class="separadorBox">
+                <hr class="separador"> <!--separador-->
+                <span class="separadorSpan">X</span>
             </div>
+           
 
             <article>
                 <div>
@@ -115,7 +148,7 @@
                     officiis dicta incidunt cum?</p>
                 <p>
                     <strong>Leer más
-                        <i></i>
+                        <i class="fa-solid fa-right-long"></i>
                     </strong>
                 </p>
 
@@ -132,7 +165,7 @@
                     officiis dicta incidunt cum?</p>
                 <p>
                     <strong>Leer más
-                        <i></i>
+                        <i class="fa-solid fa-right-long"></i>
                     </strong>
                 </p>
 
@@ -149,7 +182,7 @@
                     officiis dicta incidunt cum?</p>
                 <p>
                     <strong>Leer más
-                        <i></i>
+                        <i class="fa-solid fa-right-long"></i>
                     </strong>
                 </p>
 
@@ -164,7 +197,7 @@
             <h2>About Us</h2>
 
             <div>
-                <hr>
+                <hr> <!--separador-->
                 <span>X</span>
             </div>
 
@@ -178,16 +211,17 @@
                 ullam ut odit.</p>
 
             <a href="#">Leer más
-                <i></i>
+                <i class="fa-solid fa-right-long"></i>
             </a>
 
 
         </section>
 
+        <!--icono flecha volver arriba-->
 
         <div class="flecha">
-            <a href="#">
-                <i></i>
+            <a href="#sectionTopScroll">
+                <i class="fa-solid fa-square-caret-up"></i>
             </a>
         </div>
 
