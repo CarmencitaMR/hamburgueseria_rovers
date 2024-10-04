@@ -1,0 +1,57 @@
+@media( min-width: 768px){
+
+
+   .sectionTop {
+
+    & a{
+
+        display:flex;
+        gap: 8px;
+        text-decoration: none;
+    
+       }
+    
+
+
+    & i{
+        color: #fa573a;
+        font-size: 18px;;
+
+    }
+
+    & p{
+        display: inline;
+        font-size: 18px;
+        color: #ffff
+    }
+
+    
+}
+
+
+
+
+    .hamburger{
+        display: none;
+    }
+    .navMenu{
+        display: block;
+        background-color: aquamarine;
+    }
+    .navMenu ul{
+        height: 100%;
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+
+
+
+@media(min-width> 1024px){
+
+}
+       
+ 

@@ -1,0 +1,44 @@
+
+
+
+.
+.ourServices{
+ 
+    font-family: "Englebert";
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.ourServices span{
+    color:#fa573a
+}
+
+
+
+
+.separadorBox{
+    position: relative;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  
+}
+
+
+
+.separador{
+    color: #fa573a;
+    width: 100px;
+
+    }
+
+
+.separadorSpan{
+    color: #fa573a;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0.09em;
+
+    }
