@@ -1,4 +1,7 @@
 
+
+/*secction iconos contactos*/
+
 .sectionTop {
     background-color: #21242e;
     height: 70px;
@@ -25,27 +28,177 @@
     
 }
 
+/*logo + menu hamburguesa*/
 
 
+.sectionNav{
+    
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
 
+}
 
+.logoBox{
+
+    width: 100%;
+   
+}
 
 
 .logoImg{
-    width: 50px;
+    width: 100%;
 }
 
-.hamburgerBox{
-    width: 50px;
-    height: 50px;
-}
+
+
+
+
 
 .hamburger{
-    width:50%;
-    height: auto;
+        width: 10%;
+}
+
+
+
+
+.navTop{
+
+    min-width: 350px;
+    max-width: 1024px;
+    text-align: center;
+
+}
+
+
+.navTop li{
+
+    
+    display: block;
+    border-bottom: 1.5px solid #C6C6C6;
+    justify-content: center;
+    height: 45px;
+    line-height: 45px;
+
+
+}
+
+
+  
+.linkHome{
+    text-decoration: none;
+    color:#fa573a;
+}
+
+.linkMenu{
+    text-decoration: none;
+    color:#C6C6C6;
+}
+
+.linkBlog{
+    text-decoration: none;
+    color:#C6C6C6;
+}
+
+.linkTeam{
+    text-decoration: none;
+    color:#C6C6C6;
+}
+
+
+
+.hamburger:hover .navTop ul{
+
+        display: block;
+
 }
 
 
 .tittleTop {
     font-family: "Englebert";
 }
+
+/*sección imagen de fondo*/
+
+.backgroundImg{
+
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
+   background-position: center center;
+   width: auto;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 8px;
+   padding: 0 25px;
+
+   & h1{
+
+    color: #ffffff;
+    font-size: 25px;
+
+   }
+
+   .titleWelcome{
+    
+    color:#fa573a;
+    font-size: 14px;
+    font-weight: bold;
+
+
+   }
+
+   .textPrice{
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+
+    
+   }
+
+   .linkFoodMenu{
+
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    background-color: #fa573a;
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 35px;
+    text-align: center;
+
+    .linkFoodMenu i{
+
+        display: inline-block;
+
+    }
+
+   }
+
+   .iconSocialMedia{
+    display:flex;
+    gap: 28px;
+    font-size: 25px;
+    
+   }
+
+   .iconFacebook{
+    color:#ffffff;
+   }
+   
+
+
+
+
+   
+
+
+}
+
+
