@@ -1,22 +1,28 @@
 
+/*seccion servicios*/
+
+main{
+
+margin: 8% 10%;
+box-sizing: border box;
 
 
-.
+}
+
+/*titulo seccion servicios*/
+
 .ourServices{
  
     font-family: "Englebert";
     font-size: 30px;
     text-align: center;
-    
+
 
 }
 
 .ourServices span{
-    color:#fa573a
+    color:#fa573a;
 }
-
-
-
 
 .separadorBox{
     position: relative;
@@ -42,3 +48,73 @@
     bottom: 0.09em;
 
     }
+
+/* seccion servicios*/
+
+
+.sectionServices article{
+ 
+    margin: 0 10px; 
+    box-sizing: border-box;
+    padding: 25px;
+    border-bottom: 2px solid #c6c6c6;
+
+}
+.sectionServices{
+
+    display: grid;
+    grid-template-rows: minmax(150px, auto);
+}
+
+
+
+.gear{
+    color: #fa573a;
+    font-size: 25px;
+}
+
+
+.truck{
+    color: #fa573a;
+    font-size: 25px;
+}
+
+.heart{
+    color: #fa573a;
+    font-size: 25px;
+}
+
+.articleServices div{
+
+    border: 1px solid #fa573a;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;;
+
+
+}
+
+.articleServices h3{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.articleServices p{
+  
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.read{
+    color: #fa573a;
+    font-weight: bold;
+}
+
+
+
+

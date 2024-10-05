@@ -1,10 +1,9 @@
-
-
 /*secction iconos contactos*/
 
 .sectionTop {
     background-color: #21242e;
     height: 70px;
+
 
     .listTop {
         height: 70px;
@@ -13,42 +12,43 @@
         justify-content: space-around;
     }
 
-   
 
-    & i{
+
+    & i {
         color: #fa573a;
-        font-size: 23px;;
+        font-size: 23px;
+        ;
 
     }
 
-    & p{
+    & p {
         display: none;
     }
 
-    
+
 }
 
 /*logo + menu hamburguesa*/
 
 
-.sectionNav{
-    
+.sectionNav {
+
     height: 75px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 18px;
 
 }
 
-.logoBox{
+.logoBox {
 
     width: 100%;
-   
+
 }
 
 
-.logoImg{
+.logoImg {
     width: 100%;
 }
 
@@ -57,14 +57,14 @@
 
 
 
-.hamburger{
-        width: 10%;
+.hamburger {
+    width: 10%;
 }
 
 
 
 
-.navTop{
+.navTop {
 
     min-width: 350px;
     max-width: 1024px;
@@ -73,9 +73,9 @@
 }
 
 
-.navTop li{
+.navTop li {
 
-    
+
     display: block;
     border-bottom: 1.5px solid #C6C6C6;
     justify-content: center;
@@ -86,119 +86,124 @@
 }
 
 
-  
-.linkHome{
+
+.linkHome {
     text-decoration: none;
-    color:#fa573a;
+    color: #fa573a;
 }
 
-.linkMenu{
+.linkMenu {
     text-decoration: none;
-    color:#C6C6C6;
+    color: #C6C6C6;
 }
 
-.linkBlog{
+.linkBlog {
     text-decoration: none;
-    color:#C6C6C6;
+    color: #C6C6C6;
 }
 
-.linkTeam{
+.linkTeam {
     text-decoration: none;
-    color:#C6C6C6;
+    color: #C6C6C6;
 }
 
 
 
-.hamburger:hover .navTop ul{
+.hamburger:hover .navTop ul {
 
-        display: block;
+    display: block;
 
 }
 
 
-.tittleTop {
-    font-family: "Englebert";
-}
 
 /*sección imagen de fondo*/
 
-.backgroundImg{
+.backgroundImg {
 
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
-   background-position: center center;
-   width: auto;
-   height: 400px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   gap: 8px;
-   padding: 0 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 25px;
 
-   & h1{
+    & h1 {
 
-    color: #ffffff;
-    font-size: 25px;
+        color: #ffffff;
+        font-size: 25px;
+        font-family: "Englebert";
 
-   }
-
-   .titleWelcome{
-    
-    color:#fa573a;
-    font-size: 14px;
-    font-weight: bold;
-
-
-   }
-
-   .textPrice{
-
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-
-    
-   }
-
-   .linkFoodMenu{
-
-    display: inline-block;
-    width: 120px;
-    height: 35px;
-    padding: 5px;
-    background-color: #fa573a;
-    color:#ffffff;
-    font-size: 12px;
-    font-weight: bold;
-    text-decoration: none;
-    line-height: 35px;
-    text-align: center;
-
-    .linkFoodMenu i{
-
-        display: inline-block;
 
     }
 
-   }
+    .titleWelcome {
 
-   .iconSocialMedia{
-    display:flex;
-    gap: 28px;
-    font-size: 25px;
-    
-   }
-
-   .iconFacebook{
-    color:#ffffff;
-   }
-   
+        color: #fa573a;
+        font-size: 14px;
+        font-weight: bold;
 
 
+    }
+
+    .textPrice {
+
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
 
 
-   
+    }
+
+    .linkFoodMenu {
+
+        display: inline-block;
+        border: 1.5px solid #fa573a;
+        width: 120px;
+        height: 35px;
+        padding: 5px;
+        background-color: #fa573a;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 35px;
+        text-align: center;
+
+
+        .linkFoodMenu i {
+
+            display: inline-block;
+
+        }
+
+    }
+
+    .linkFoodMenu:hover {
+
+
+        background: transparent;
+        border: 1.5px solid #fa573a;
+
+
+    }
+
+    .iconSocialMedia {
+        display: flex;
+        gap: 28px;
+    }
+
+    .iconSocialMedia i {
+
+        font-size: 25px;
+        color: #ffffff;
+
+    }
+
 
 
 }
-
-

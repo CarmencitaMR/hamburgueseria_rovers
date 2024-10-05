@@ -1,8 +1,11 @@
 /*seccio iconos contacto*/
 
-@media( min-width: 768px){
+@media(min-width: 768px){
 
    .sectionTop {
+
+    padding: 0 50px;
+
 
     & a{
 
@@ -27,7 +30,7 @@
     }
 
     
-}
+    }
 
 
 
@@ -35,85 +38,169 @@
     /*logo + menu hamburguesa*/
 
 
-.sectionNav{
+    .sectionNav{
     
     height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 90px;
 
-}
+    }
 
-.logoBox{
+    .logoBox{
 
     width: 60%;
    
-}
+    }
 
 
-.logoImg{
+    .logoImg{
     width: 100%;
-}
+    }
 
 
 
 
-.navTop{
+    .navTop{
 
     min-width: 350px;
     max-width: 1024px;
     text-align: center;
 
-}
+    }
 
 
-.navTop ul{
+    .navTop ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-}
+    }
 
-.navTop li{
+    .navTop li{
     border: none;
 
 
-}
+    }
 
   
-.linkHome{
+    .linkHome{
     text-decoration: none;
     color:#fa573a;
-}
+    }
 
-.linkMenu{
+    .linkMenu{
     text-decoration: none;
     color:#C6C6C6;
-}
+    }
 
-.linkBlog{
+    .linkBlog{
     text-decoration: none;
     color:#C6C6C6;
-}
+    }
 
-.linkTeam{
+    .linkTeam{
     text-decoration: none;
     color:#C6C6C6;
-}
+    }
 
 
-.hamburger{
+    .hamburger{
     display: none;
-}
+    }
 
-.backgroundImg{
+    .backgroundImg{
 
     background-image: url(../../images/fondo.jpg);
     background-position: center center;
     width: auto;
     height: 450px;
- }
+     }
+
+     /*sección imagen de fondo*/
+
+    .backgroundImg {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
+    height: 80vh;
+    display: flex;
+    gap: 15px;
+    padding: 0 10%;
+
+    & h1 {
+
+  
+        font-size: 30px;
+    
+
+
+    }
+
+    .titleWelcome {
+
+
+        font-size: 15px;
+   
+
+
+    }
+
+    .textPrice {
+
+
+        font-size: 15px;
+    
+
+
+    }
+
+    .linkFoodMenu:hover {
+
+
+        background: transparent;
+        border: 1.5px solid #fa573a;
+
+
+    }
+
+    
+
+    }
+
+
+    main{
+
+        margin: 4% 10%;
+        box-sizing: border box;
+        
+        
+    }
+
+    .sectionServices{
+
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .sectionServices article{
+
+ 
+
+        border-left: 2px solid #c6c6c6;
+        border-bottom: 0;
+    
+    }
+
+
+
+
+
+
+
+}
+
+
 
 
 
@@ -122,6 +209,109 @@
 
 @media(min-width> 1024px){
 
-}
+       /*sección imagen de fondo*/
+
+       .backgroundImg {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
+        height: 80vh;
+        display: flex;
+        gap: 15px;
+      
+    
+        & h1 {
+    
+      
+            font-size: 40px;
+        
+    
+    
+        }
+    
+        .titleWelcome {
+    
+    
+            font-size: 16px;
        
+    
+    
+        }
+    
+        .textPrice {
+    
+    
+            font-size: 16px;
+        
+    
+    
+        }
+    
+        .linkFoodMenu:hover {
+    
+    
+            background: transparent;
+            border: 1.5px solid #fa573a;
+    
+    
+        }
+    
+        
+    
+    
+    
+        }
+
+
+        /*titulo seccion servicios*/
+
+        .ourServices{
  
+        font-family: "Englebert";
+        font-size: 30px;
+        text-align: center;
+
+
+        }
+
+        .ourServices span{
+         color:#fa573a;
+        }
+
+        .separadorBox{
+        position: relative;
+        text-align: center;
+        display:flex;
+        justify-content: center;
+  
+    }
+
+
+
+        .separador{
+        color: #fa573a;
+        width: 100px;
+
+         }
+
+
+        .separadorSpan{
+        color: #fa573a;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0.09em;
+
+         }
+
+
+
+
+
+
+    
+
+}
+
+
+
+
+
