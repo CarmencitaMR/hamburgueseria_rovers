@@ -11,7 +11,8 @@
 
     .sectionTop {
 
-        padding: 0 50px;
+        padding: 0 75px;
+       
 
 
         & a {
@@ -40,11 +41,92 @@
 
     }
 
+    /*logo y menu navegacion*/
+
+
+   
+
+   .sectionNav {
+
+    display: grid;
+    grid-template-columns: 25% 80%;
+    padding: 0 90px;
+
+
+   }
+
+   .sectionNav a{
+
+    padding-left: 25px;
+
+   }
+
+
+    .hamburgerBox{
+
+        display: none;
+    }
+
+    .navBoxScreen{
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 100px;
+        
+        
+    }
+
+    .navTopScreen{
+
+        display: flex;
+        gap: 50px;    
+   
+    }
+
+    .linkHomeScreen{
+        font-size: 18px;
+        text-decoration: none;
+        color: #fa573a;
+    }
+    
+    .linkMenuScreen {
+        font-size: 18px;
+        text-decoration: none;
+        color: #C6C6C6;
+    }
+    
+    .linkMenuScreen:hover{
+        font-size: 18px;
+        color: #fa573a;
+    
+    }
+    
+    .linkBlogScreen {
+        font-size: 18px;
+        text-decoration: none;
+        color: #C6C6C6;
+    }
+    
+    .linkBlogScreen:hover{
+        color: #fa573a;
+    
+    }
+    
+    .linkTeamScreen {
+        font-size: 18px;
+        text-decoration: none;
+        color: #C6C6C6;
+    }
+    
+    .linkTeamScreen:hover{
+        color: #fa573a;
+    
+    }
 
 
 
-    /*logo + menu hamburguesa*/
-
+   
 
 
 
@@ -271,7 +353,7 @@
 
 
 
-   
+
     /*sección imagen de fondo*/
 
     .backgroundImg {

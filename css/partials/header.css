@@ -57,9 +57,6 @@
 
 
 
-
-
-
 .hamburgerBox{
     
     width: 100%;
@@ -71,9 +68,7 @@
     right: 0;
  
   
- 
-   
-   
+
 
 }
 
@@ -170,7 +165,9 @@
 
 }
 
-
+.navBoxScreen{
+    display: none;
+}
 
 .navTop{
 
