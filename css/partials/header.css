@@ -9,7 +9,8 @@
         height: 70px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0 47px;
     }
 
 
@@ -35,18 +36,20 @@
 
     height: 75px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 18px;
+    padding: 0 40px;
+    
 
 }
 
-.logoBox {
 
-    width: 100%;
+.logoBox{
+    
+    width: 55%;
+   
 
 }
-
 
 .logoImg {
     width: 100%;
@@ -57,30 +60,75 @@
 
 
 
-.hamburger {
-    width: 10%;
+.hamburgerBox{
+    
+    width: 100%;
+    height: 75px;
+    margin-top: 20px;
+    z-index: 100;
+    text-align: end;
+    position: absolute;
+    right: 0;
+ 
+  
+ 
+   
+   
+
+}
+
+.hamburgerImg{
+
+    width: 55px;
+    height: 55px;
+    margin-right: 40px;
+
+  
+
+   
+
 }
 
 
 
+.navBox{
+    width: 100%;
 
+    
+    
+   
+}
 .navTop {
 
-    min-width: 350px;
-    max-width: 1024px;
+    display: block;
     text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+  
 
 }
 
 
-.navTop li {
+.listNavTop {
 
 
-    display: block;
+   
     border-bottom: 1.5px solid #C6C6C6;
     justify-content: center;
-    height: 45px;
-    line-height: 45px;
+    height: 60px;
+    line-height: 60px;
+
+
+
+}
+
+.listNavTopBottom {
+
+
+    justify-content: center;
+    height: 60px;
+    line-height: 60px;
 
 
 }
@@ -97,9 +145,19 @@
     color: #C6C6C6;
 }
 
+.linkMenu:hover{
+    color: #fa573a;
+
+}
+
 .linkBlog {
     text-decoration: none;
     color: #C6C6C6;
+}
+
+.linkBlog:hover{
+    color: #fa573a;
+
 }
 
 .linkTeam {
@@ -107,11 +165,28 @@
     color: #C6C6C6;
 }
 
+.linkTeam:hover{
+    color: #fa573a;
+
+}
 
 
-.hamburger:hover .navTop ul {
 
-    display: block;
+.navTop{
+
+    display: none;
+}
+
+.hamburgerBox:hover{
+
+
+    .navTop{
+
+        display: block;
+
+    }
+
+   
 
 }
 

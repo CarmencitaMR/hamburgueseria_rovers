@@ -46,77 +46,7 @@
     /*logo + menu hamburguesa*/
 
 
-    .sectionNav {
 
-        height: 75px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 90px;
-
-    }
-
-    .logoBox {
-
-        width: 60%;
-
-    }
-
-
-    .logoImg {
-        width: 100%;
-    }
-
-
-
-
-    .navTop {
-
-        min-width: 350px;
-        max-width: 1024px;
-        text-align: center;
-
-    }
-
-
-    .navTop ul {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-
-    .navTop li {
-        border: none;
-
-
-    }
-
-
-    .linkHome {
-        text-decoration: none;
-        color: #fa573a;
-    }
-
-    .linkMenu {
-        text-decoration: none;
-        color: #C6C6C6;
-    }
-
-    .linkBlog {
-        text-decoration: none;
-        color: #C6C6C6;
-    }
-
-    .linkTeam {
-        text-decoration: none;
-        color: #C6C6C6;
-    }
-
-
-    .hamburger {
-        display: none;
-    }
 
     .backgroundImg {
 
@@ -216,7 +146,7 @@
     .articleServices h3 {
 
         font-size: 14px;
- 
+
     }
 
     .articleServices p {
@@ -250,11 +180,6 @@
 
 
 
-    .sectionHistoryGrid {
-
-        
-
-    }
 
 
     .historyBox {
@@ -263,18 +188,18 @@
 
         & h3 {
             font-size: 18px;
-          
+
         }
 
         & h4 {
             font-size: 18px;
-         
+
 
         }
 
         & p {
             font-size: 14px;
-   
+
         }
     }
 
@@ -344,6 +269,9 @@
 @media(min-width: 1024px) {
 
 
+
+
+   
     /*sección imagen de fondo*/
 
     .backgroundImg {
