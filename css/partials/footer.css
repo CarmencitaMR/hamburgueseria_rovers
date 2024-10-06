@@ -1,0 +1,43 @@
+
+/*footer*/
+
+.footer{
+
+    background-color: #21242e;
+    height: 70px;
+   
+
+    & .listFooter{
+
+        display: flex;
+        height: 70px;
+        align-items:center;
+        justify-content: center;
+        gap: 4px;
+
+    }
+
+    & .listFooter li{
+            
+        color:#ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        }
+
+    & .listFooter a{
+
+        color:#ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+
+    }
+
+    & .listFooter a:hover{
+        color:#fa573a;
+
+    }
+    
+
+}
+

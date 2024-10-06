@@ -1,40 +1,43 @@
 /*seccio iconos contacto*/
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
 
 
-    header, main, footer{
+    header,
+    main,
+    footer {
         box-sizing: border-box;
     }
 
-   .sectionTop {
+    .sectionTop {
 
-    padding: 0 50px;
-
-
-    & a{
-
-        display:flex;
-        gap: 8px;
-        text-decoration: none;
-    
-       }
-    
+        padding: 0 50px;
 
 
-    & i{
-        color: #fa573a;
-        font-size: 18px;;
+        & a {
 
-    }
+            display: flex;
+            gap: 8px;
+            text-decoration: none;
 
-    & p{
-        display: inline;
-        font-size: 16px;
-        color: #ffff
-    }
+        }
 
-    
+
+
+        & i {
+            color: #fa573a;
+            font-size: 18px;
+            ;
+
+        }
+
+        & p {
+            display: inline;
+            font-size: 16px;
+            color: #ffff
+        }
+
+
     }
 
 
@@ -43,191 +46,399 @@
     /*logo + menu hamburguesa*/
 
 
-    .sectionNav{
-    
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 90px;
+    .sectionNav {
+
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 90px;
 
     }
 
-    .logoBox{
+    .logoBox {
 
-    width: 60%;
-   
-    }
-
-
-    .logoImg{
-    width: 100%;
-    }
-
-
-
-
-    .navTop{
-
-    min-width: 350px;
-    max-width: 1024px;
-    text-align: center;
+        width: 60%;
 
     }
 
 
-    .navTop ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    }
-
-    .navTop li{
-    border: none;
-
-
-    }
-
-  
-    .linkHome{
-    text-decoration: none;
-    color:#fa573a;
-    }
-
-    .linkMenu{
-    text-decoration: none;
-    color:#C6C6C6;
-    }
-
-    .linkBlog{
-    text-decoration: none;
-    color:#C6C6C6;
-    }
-
-    .linkTeam{
-    text-decoration: none;
-    color:#C6C6C6;
+    .logoImg {
+        width: 100%;
     }
 
 
-    .hamburger{
-    display: none;
+
+
+    .navTop {
+
+        min-width: 350px;
+        max-width: 1024px;
+        text-align: center;
+
     }
 
-    .backgroundImg{
 
-    background-image: url(../../images/fondo.jpg);
-    background-position: center center;
-    width: auto;
-    height: 450px;
-     }
+    .navTop ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
-     /*sección imagen de fondo*/
+    }
+
+    .navTop li {
+        border: none;
+
+
+    }
+
+
+    .linkHome {
+        text-decoration: none;
+        color: #fa573a;
+    }
+
+    .linkMenu {
+        text-decoration: none;
+        color: #C6C6C6;
+    }
+
+    .linkBlog {
+        text-decoration: none;
+        color: #C6C6C6;
+    }
+
+    .linkTeam {
+        text-decoration: none;
+        color: #C6C6C6;
+    }
+
+
+    .hamburger {
+        display: none;
+    }
 
     .backgroundImg {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
-    height: 80vh;
-    display: flex;
-    gap: 15px;
-    padding: 0 10%;
-
-    & h1 {
-
-  
-        font-size: 30px;
-    
-
-
+        background-image: url(../../images/fondo.jpg);
+        background-position: center center;
+        width: auto;
+        height: 450px;
     }
 
-    .titleWelcome {
+    /*sección imagen de fondo*/
+
+    .backgroundImg {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
+        height: 80vh;
+        display: flex;
+        gap: 15px;
+        padding: 0 10%;
+
+        & h1 {
 
 
-        font-size: 15px;
-   
+            font-size: 30px;
 
 
-    }
 
-    .textPrice {
+        }
 
-
-        font-size: 15px;
-    
+        .titleWelcome {
 
 
-    }
-
-    .linkFoodMenu:hover {
+            font-size: 15px;
 
 
-        background: transparent;
-        border: 1.5px solid #fa573a;
+
+        }
+
+        .textPrice {
 
 
-    }
+            font-size: 15px;
 
-    
+
+
+        }
+
+        .linkFoodMenu:hover {
+
+
+            background: transparent;
+            border: 1.5px solid #fa573a;
+
+
+        }
+
+
 
     }
 
 
     /*main seccion princial*/
-    
-    main{
+
+    main {
 
         margin: 4% 10%;
         box-sizing: border box;
-      
-        
-        
+
+
+
     }
 
 
-       /*seccion servicios*/   
+    /*seccion servicios*/
 
-    .ourServices{
+    .ourServices {
+
+        font-size: 30px;
+
+
+
+    }
+
+
+    .separador {
+
+        width: 100px;
+
+    }
+
+
+
+
+
+
+
+
+    .articleServices h3 {
+
+        font-size: 14px;
  
+    }
+
+    .articleServices p {
+
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+
+    .read {
+        font-size: 14px;
+    }
+
+    /*titulo seccion hitory*/
+
+
+    .ourHistory {
+
+        font-size: 30px;
+
+
+
+
+    }
+
+
+    .separador {
+        width: 100px;
+
+    }
+
+
+
+    .sectionHistoryGrid {
+
+        
+
+    }
+
+
+    .historyBox {
+
+
+
+        & h3 {
+            font-size: 18px;
+          
+        }
+
+        & h4 {
+            font-size: 18px;
+         
+
+        }
+
+        & p {
+            font-size: 14px;
+   
+        }
+    }
+
+
+    /* seccion history*/
+
+    .flecha {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+
+
+
+        & i {
+
+
+            font-size: 50px;
+        }
+
+    }
+
+
+    .footer {
+
+
+
+        & .listFooter {
+
+            gap: 6px;
+
+        }
+
+        & .listFooter li {
+
+
+            font-size: 16px;
+
+        }
+
+        & .listFooter a {
+
+
+            font-size: 16px;
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media(min-width: 1024px) {
+
+
+    /*sección imagen de fondo*/
+
+    .backgroundImg {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
+        height: 80vh;
+        display: flex;
+        gap: 15px;
+
+
+        & h1 {
+
+
+            font-size: 40px;
+
+
+
+        }
+
+        .titleWelcome {
+
+
+            font-size: 20px;
+
+
+
+        }
+
+        .textPrice {
+
+
+            font-size: 20px;
+
+
+
+        }
+
+        .linkFoodMenu:hover {
+
+
+            background: transparent;
+            border: 1.5px solid #fa573a;
+
+
+        }
+
+
+
+
+
+    }
+
+
+    /*titulo seccion servicios*/
+
+    .ourServices {
+
         font-family: "Englebert";
         font-size: 30px;
         text-align: center;
-    
-    
+
+
     }
 
-    .ourServices span{
-        color:#fa573a;
+    .ourServices span {
+        color: #fa573a;
     }
 
-    .separadorBox{
+    .separadorBox {
         position: relative;
         text-align: center;
-        display:flex;
+        display: flex;
         justify-content: center;
-      
+
     }
 
-    .separador{
+
+
+    .separador {
         color: #fa573a;
         width: 100px;
-    
+
     }
 
 
-    .separadorSpan{
+    .separadorSpan {
         color: #fa573a;
         font-weight: bold;
         position: absolute;
         bottom: 0.09em;
-    
-        }
+
+    }
 
 
-     
-
-    .sectionServices{
+    .sectionServices {
 
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -235,247 +446,167 @@
         justify-items: center;
     }
 
-    .sectionServices article{
+    .sectionServices article {
 
         border-left: 2px solid #c6c6c6;
         border-bottom: 0;
-    
+
     }
 
-    .articleServices h3{
-        
+    .articleServices h3 {
+
         font-size: 16px;
         margin-bottom: 7px;
     }
-    
-    .articleServices p{
-      
+
+    .articleServices p {
+
         font-size: 16px;
         line-height: 1.7em;
     }
 
 
-    .read{
+    .read {
         font-size: 16px;
     }
-    
-/*titulo seccion hitory*/
+
+    /*titulo seccion hitory*/
 
 
-    .ourHistory{
-    
+    .ourHistory {
+
         font-size: 30px;
-       
-     
-     
+
+
+
 
     }
 
 
-    .separador{
+    .separador {
         width: 100px;
 
     }
 
 
 
-    .sectionHistoryGrid{
+    .sectionHistoryGrid {
 
         display: grid;
         grid-template-columns: 50% 50%;
         justify-items: center;
         margin: 60px 0 60px 0;
         gap: 30px;
-    
 
-        & figure{
+
+        & figure {
 
             width: 90%;
             border: 3px solid #fa573a;
 
-            & img{
+            & img {
                 width: 100%;
                 transition: 3s;
             }
 
-            & img:hover{
-            transform: rotate(15deg);
+            & img:hover {
+                transform: rotate(15deg);
             }
 
         }
     }
 
 
-    .historyBox{
+    .historyBox {
 
 
 
-        & h3{
+        & h3 {
             font-size: 20px;
             margin-bottom: 18px;
         }
-    
-        & h4{
+
+        & h4 {
             font-size: 20px;
             margin-bottom: 18px;
-    
+
         }
-    
-        & p{
+
+        & p {
             font-size: 16px;
             margin-bottom: 18px;
-        
+
         }
     }
 
 
-     /* seccion history*/
+    /* seccion history*/
 
-     .flecha{
+    .flecha {
         width: 50px;
         height: 50px;
         margin: 10px;
-        
-    
 
-        & i{
 
-        
+
+        & i {
+
+
             font-size: 50px;
         }
 
     }
 
 
-  
 
-    
-    
+    /*footer*/
 
-
-}
+    .footer {
 
 
 
+        & .listFooter {
+
+            gap: 8px;
+            justify-content: start;
+            padding-left: 11%;
+
+        }
+
+        & .listFooter li {
+
+
+            font-size: 18px;
+
+        }
+
+        & .listFooter a {
+
+
+            font-size: 18px;
+
+
+        }
 
 
 
-
-
-@media(min-width> 1024px){
-
-
-    header, main, footer{
-        box-sizing: border-box;
     }
 
 
 
-       /*sección imagen de fondo*/
-
-       .backgroundImg {
-
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/fondo.jpg);
-        height: 80vh;
-        display: flex;
-        gap: 15px;
-      
-    
-        & h1 {
-    
-      
-            font-size: 40px;
-        
-    
-    
-        }
-    
-        .titleWelcome {
-    
-    
-            font-size: 16px;
-       
-    
-    
-        }
-    
-        .textPrice {
-    
-    
-            font-size: 16px;
-        
-    
-    
-        }
-    
-        .linkFoodMenu:hover {
-    
-    
-            background: transparent;
-            border: 1.5px solid #fa573a;
-    
-    
-        }
-
-
-        
-        
-    
-    
-    
-        }
-
-
-        /*titulo seccion servicios*/
-
-        .ourServices{
- 
-        font-family: "Englebert";
-        font-size: 30px;
-        text-align: center;
-
-
-        }
-
-        .ourServices span{
-         color:#fa573a;
-        }
-
-        .separadorBox{
-        position: relative;
-        text-align: center;
-        display:flex;
-        justify-content: center;
-  
-    }
-
-
-
-        .separador{
-        color: #fa573a;
-        width: 100px;
-
-         }
-
-
-        .separadorSpan{
-        color: #fa573a;
-        font-weight: bold;
-        position: absolute;
-        bottom: 0.09em;
-
-         }
 
 
 
 
 
 
-    
+
+
+
+
+
+
+
+
 
 }
-
-
-
-
-
