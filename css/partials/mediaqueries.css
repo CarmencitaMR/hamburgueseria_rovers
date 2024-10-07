@@ -11,7 +11,12 @@
 
     .sectionTop {
 
-        padding: 0 75px;
+        
+        & .listTop{
+
+            padding: 0 10% 0 11%;
+        }
+   
        
 
 
@@ -49,17 +54,13 @@
    .sectionNav {
 
     display: grid;
-    grid-template-columns: 25% 80%;
-    padding: 0 90px;
+    grid-template-columns: 25% 75%;
+    padding: 0 10%;
+   
 
 
    }
 
-   .sectionNav a{
-
-    padding-left: 25px;
-
-   }
 
 
     .hamburgerBox{
@@ -72,7 +73,7 @@
         display: flex;
         justify-content: end;
         align-items: center;
-        padding-right: 100px;
+       
         
         
     }
@@ -245,6 +246,33 @@
     /*titulo seccion hitory*/
 
 
+    .sectionHistoryGrid{
+
+      
+      
+    
+        & figure{
+    
+            width: 100%;
+            border: 3px solid #fa573a;
+            margin-bottom: 30px;
+            transform: none;
+    
+            & img{
+                width: 100%;
+                height: auto;
+                transition: 3s;
+                transform: none;
+            }
+    
+            & img:hover{
+               transform: rotate(15deg);
+            }
+    
+        }
+    }
+
+
     .ourHistory {
 
         font-size: 30px;
@@ -349,6 +377,10 @@
 
 
 @media(min-width: 1024px) {
+
+
+    
+   
 
 
 

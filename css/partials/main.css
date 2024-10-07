@@ -188,17 +188,16 @@ box-sizing: border box;
         width: 100%;
         border: 3px solid #fa573a;
         margin-bottom: 30px;
+        transform: rotate(10deg);
 
         & img{
             width: 100%;
             height: auto;
             transition: 3s;
+            transform: rotate(-10deg);
         }
 
-        & img:hover{
-           transform: rotate(15deg);
-        }
-
+    
     }
 }
 
